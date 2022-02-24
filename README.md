@@ -11,4 +11,4 @@ The calculator is available [here](https://aledipa.github.io/QuiteMinimalCalcula
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Notes
-This was developed as a school project
+This was developed as an old school project
