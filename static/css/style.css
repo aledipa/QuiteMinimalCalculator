@@ -1,0 +1,137 @@
+/*Kit di font custom scaricati \/ */
+@font-face {
+    font-family: 'gilroylight';
+    src: url('webfontkit/gilroy-light-webfont.woff2') format('woff2'),
+         url('webfontkit/gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('webfontkit/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('webfontkit/gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Kit di font custom scaricati: /\ */
+
+body {
+	background-color: lightblue;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	color: white;
+}
+
+.light {
+	font-family: 'gilroylight', Arial, sans-serif;
+}
+
+.ultra-bold {
+	font-family: 'gilroyextrabold', Arial, sans-serif;
+}
+
+.button {
+	background-color: lightgreen;
+	color: white;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	width: 3em;
+	height: 3em;
+	margin: 0.5em;
+	display: inline-block;
+	font-size: 25px;
+	outline: 0;
+}
+
+.button:hover {
+	background-color: white;
+	color: lightgreen;
+}
+
+.check {
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+  	width: 0;
+  	margin-bottom: 8px;
+}
+
+.calc {
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	width: 3em;
+	height: 3em;
+	margin: 0.5em;
+	display: inline-block;
+	font-size: 25px;
+	outline: 0;
+}
+
+.Value {
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	width: 3em;
+	height: 3em;
+	margin: 0.5em;
+	display: inline-block;
+	font-size: 25px;
+	outline: 0;
+}
+
+.Value:active {
+	background-color: #e0e0e0;
+}
+
+.Operand {
+	background-color: #fcc08f;
+	color: white;
+}
+
+.Operand:active {
+	background-color: #e5b085;
+}
+
+.long {
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	height: 3em;
+	margin: 0.5em;
+	display: inline-block;
+	font-size: 25px;
+	outline: 0;
+	width: 7.2em;
+	background-color: #fcf38f;
+	color: #303030;
+}
+
+.long:active  {
+	background-color: #e5e085;
+}
+
+.Func {
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #cef4ad;
+	color: #303030;
+	font-size: 23px;
+	height: 1.8em;
+	width: 3.3em;
+	margin: 0.5em;
+	display: inline-block;
+	outline: 0;
+}
+
+.Func:active {
+	background-color: #bde09f;
+}
+
+#quickAct {
+	padding-top: 3em;
+	display: none;
+}
