@@ -3,7 +3,7 @@ A vanilla web minimal calculator made using HTML/CSS/JS and no frameworks.
 (Check [Notes](#notes))
 
 # Deployment
-The calculator is available [here](aledipa.github.io/QuiteMinimalCalculator)
+The calculator is available [here](https://aledipa.github.io/QuiteMinimalCalculator/)
 
 
 ## License
